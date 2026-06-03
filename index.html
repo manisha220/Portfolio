@@ -632,27 +632,7 @@
       filter: grayscale(10%);
     }
     .project-card:hover .project-img-wrap img { transform: scale(1.05); }
-    .project-img-overlay {
-      position: absolute;
-      inset: 0;
-      background: rgba(17,17,17,0.7);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      transition: opacity 0.4s ease;
-    }
-    .project-card:hover .project-img-overlay { opacity: 1; }
-    .project-img-overlay span {
-      font-family: var(--font-sub);
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--white);
-      border: 1px solid rgba(255,255,255,0.5);
-      padding: 0.7rem 1.4rem;
-    }
+    .project-img-overlay { display: none; }
     .project-body { padding: 2rem; }
     .project-num {
       font-family: var(--font-heading);
@@ -1335,7 +1315,7 @@
         <!-- Project 1: FakeShield -->
         <div class="project-card reveal">
           <div class="project-img-wrap" onclick="window.open('https://github.com/manisha220/Fake_news_detection', '_blank')" role="link" aria-label="View FakeShield Project" tabindex="0">
-            <img src="assets/project-fakeshield.png" alt="FakeShield – Fake News Detection System" />
+            <img src="assets/project-ghostrade.png" alt="FakeShield – Fake News Detection System" />
             <div class="project-img-overlay"><span>View Project ↗</span></div>
           </div>
           <div class="project-body">
@@ -1358,7 +1338,7 @@
         <!-- Project 2: GHOSTRADE -->
         <div class="project-card reveal d1">
           <div class="project-img-wrap" onclick="window.open('https://ghostrade.vercel.app', '_blank')" role="link" aria-label="View GHOSTRADE Project" tabindex="0">
-            <img src="assets/project-ghostrade.png" alt="GHOSTRADE – Market Integrity Engine" />
+            <img src="assets/project-fakeshield.png" alt="GHOSTRADE – Market Integrity Engine" />
             <div class="project-img-overlay"><span>View Project ↗</span></div>
           </div>
           <div class="project-body">
